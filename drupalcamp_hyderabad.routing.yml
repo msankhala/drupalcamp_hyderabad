@@ -1,0 +1,8 @@
+drupalcamp_hyderabad.demo:
+  path: '/demo'
+  defaults:
+    _controller: '\Drupal\drupalcamp_hyderabad\Controller\DemoController::demo'
+    _title: 'Demo'
+  requirements:
+    _permission: 'access content'
+

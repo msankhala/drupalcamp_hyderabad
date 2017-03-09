@@ -1,0 +1,6 @@
+services:
+    drupalcamp_hyderabad.demo_service:
+        class: Drupal\drupalcamp_hyderabad\DemoService
+    plugin.manager.drupalcamp:
+        class: Drupal\drupalcamp_hyderabad\Plugin\DrupalCampPluginManager
+        parent: default_plugin_manager
